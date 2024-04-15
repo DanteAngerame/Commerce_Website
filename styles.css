@@ -1,3 +1,13 @@
+
+body{
+    
+    background-image: url(Images/pepsi-can-darkened-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:
+}
+
+
 .navbar a{ 
     font-family: "Russo One", sans-serif;
     font-weight: 400;
