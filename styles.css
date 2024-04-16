@@ -4,13 +4,20 @@ body{
     background-image: url(Images/pepsi-can-darkened-bg.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size:
+    background-size: cover;
+    padding-bottom: 700px;
 }
-
 
 .navbar a{ 
     font-family: "Russo One", sans-serif;
     font-weight: 400;
     font-style: normal
     !important;
+}
+
+.pagetitle{
+    color: rgb(255, 255, 255);
+}
+.openingline{
+    color: rgb(255, 255, 255);
 }
