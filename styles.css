@@ -1,11 +1,11 @@
 
 body{
     
-    background-image: url(Images/pepsi-can-darkened-bg.png);
+    background-image: url(Images/pepsi-colours-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-bottom: 700px;
+    padding-bottom: 400px;
 }
 
 .navbar a{ 
@@ -20,10 +20,24 @@ body{
     font-family: "Russo One", sans-serif;
     
 }
+.pagetitle2{
+    color: rgb(10, 0, 0);
+    font-family: "Russo One", sans-serif;
+    
+}
 .openingline{
     color: rgb(255, 255, 255);
 }
 
 .card-title{
     font-family: "Russo One", sans-serif;
+    text-decoration: underline;
 }
+
+.productinterior{
+    font-size: 1rem;
+    font-style: italic;
+    color: rgb(143, 143, 143);
+    
+}
+
