@@ -17,7 +17,13 @@ body{
 
 .pagetitle{
     color: rgb(255, 255, 255);
+    font-family: "Russo One", sans-serif;
+    
 }
 .openingline{
     color: rgb(255, 255, 255);
+}
+
+.card-title{
+    font-family: "Russo One", sans-serif;
 }
