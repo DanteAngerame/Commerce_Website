@@ -25,7 +25,11 @@ body{
     
 }
 .openingline{
-    color: rgb(255, 255, 255);
+    color: rgb(12, 28, 255);
+    font-family: "Russo One", sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 1, 1);
 }
 
 .card-title{
@@ -47,4 +51,12 @@ body{
 
 .hometext{
     margin-top: 15px;
+}
+
+.signin{
+    font-family: "Russo One", sans-serif;
+}
+
+::-webkit-scrollbar { 
+    display:none; 
 }
