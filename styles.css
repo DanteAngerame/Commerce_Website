@@ -30,6 +30,7 @@ body{
     font-style: italic;
     text-decoration: underline;
     text-decoration-color: rgb(255, 1, 1);
+    font-size: xx-large;
 }
 
 .card-title{
@@ -55,6 +56,15 @@ body{
 
 .signin{
     font-family: "Russo One", sans-serif;
+}
+
+.cart{
+    font-family: "Russo One", sans-serif;
+}
+
+.bigtext{
+    font-size: x-large;
+    font-style: italic;
 }
 
 ::-webkit-scrollbar { 

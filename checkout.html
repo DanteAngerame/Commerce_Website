@@ -56,50 +56,51 @@
    
     <main>
       <div class="container">
-        <H1 class="pagetitle"> CHECKOUT PAGE</H1>
+        <H1 class="pagetitle"> CHECKOUT</H1>
       </div>
 
-       <!--checkout page bootstrap--> <body class="bg-body-tertiary">  
+       <!--checkout page bootstrap--> 
+       <div>  
         <div class="container bg-light rounded-3 pt-3">
           
             <div class="row g-5">
               <div class="col-md-5 col-lg-4 order-md-last">
                 <h4 class="d-flex justify-content-between align-items-center mb-3">
-                  <span class="text-primary">Your cart</span>
-                  <span class="badge bg-primary rounded-pill">3</span>
+                  <span class="text-primary cart">Your cart</span>
+                  <span class="badge bg-danger rounded-pill">3</span>
                 </h4>
                 <ul class="list-group mb-3">
                   <li class="list-group-item d-flex justify-content-between lh-sm">
                     <div>
-                      <h6 class="my-0">Product name</h6>
-                      <small class="text-body-secondary">Brief description</small>
+                      <h6 class="my-0">Classic Pepsi</h6>
+                      <small class="text-body-secondary">x2 (24 pack)</small>
                     </div>
-                    <span class="text-body-secondary">$12</span>
+                    <span class="text-body-secondary">$60</span>
                   </li>
                   <li class="list-group-item d-flex justify-content-between lh-sm">
                     <div>
-                      <h6 class="my-0">Second product</h6>
-                      <small class="text-body-secondary">Brief description</small>
+                      <h6 class="my-0">Crystal Pepsi</h6>
+                      <small class="text-body-secondary">x10 (24 pack)</small>
                     </div>
-                    <span class="text-body-secondary">$8</span>
+                    <span class="text-body-secondary">$300</span>
                   </li>
                   <li class="list-group-item d-flex justify-content-between lh-sm">
                     <div>
-                      <h6 class="my-0">Third item</h6>
-                      <small class="text-body-secondary">Brief description</small>
+                      <h6 class="my-0">Ice Cucumber Pepsi</h6>
+                      <small class="text-body-secondary">x5 (24 pack)</small>
                     </div>
-                    <span class="text-body-secondary">$5</span>
+                    <span class="text-body-secondary">$150</span>
                   </li>
                   <li class="list-group-item d-flex justify-content-between bg-body-tertiary">
                     <div class="text-success">
                       <h6 class="my-0">Promo code</h6>
-                      <small>EXAMPLECODE</small>
+                      <small>PEPSI>COKE</small>
                     </div>
-                    <span class="text-success">−$5</span>
+                    <span class="text-success">100% OFF</span>
                   </li>
                   <li class="list-group-item d-flex justify-content-between">
                     <span>Total (USD)</span>
-                    <strong>$20</strong>
+                    <strong class="text-success">$FREE</strong>
                   </li>
                 </ul>
         
@@ -111,7 +112,7 @@
                 </form>
               </div>
               <div class="col-md-7 col-lg-8">
-                <h4 class="mb-3">Billing address</h4>
+                <h4 class="mb-3">Billing + Shipping Address</h4>
                 <form class="needs-validation" novalidate>
                   <div class="row g-3">
                     <div class="col-sm-6">
@@ -167,6 +168,8 @@
                       <select class="form-select" id="country" required>
                         <option value="">Choose...</option>
                         <option>United States</option>
+                        <option>Canada</option>
+                        <option>Netherlands</option>
                       </select>
                       <div class="invalid-feedback">
                         Please select a valid country.
@@ -177,7 +180,10 @@
                       <label for="state" class="form-label">State</label>
                       <select class="form-select" id="state" required>
                         <option value="">Choose...</option>
+                        <option>Arizona</option>
                         <option>California</option>
+                        <option>Holland</option>
+                        
                       </select>
                       <div class="invalid-feedback">
                         Please provide a valid state.
@@ -186,7 +192,7 @@
         
                     <div class="col-md-3">
                       <label for="zip" class="form-label">Zip</label>
-                      <input type="text" class="form-control" id="zip" placeholder="" required>
+                      <input type="text" class="form-control" id="zip" placeholder="zipcode" required>
                       <div class="invalid-feedback">
                         Zip code required.
                       </div>
@@ -261,11 +267,13 @@
         
                   <hr class="my-4">
         
-                  <button class="w-100 btn btn-primary btn-lg mb-3" type="submit">Continue to checkout</button>
+                  <button class="w-100 btn btn-primary btn-lg mb-3 cart" type="submit">Finalize Order</button>
                 </form>
               </div>
             </div>
-          
+          </div> 
+       </div>
+    
     </main>
 
         <footer>
